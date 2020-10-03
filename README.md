@@ -17,7 +17,7 @@ Under development by the DSC-TUDublin, this project uses GitHub pages to create 
 
 ## Credits
 
-| Contribution |
+| Contributer | Contribution |
 |-|-|
 |[Solon](https://github.com/1Solon)|GitHub maintenanance
 
