@@ -6,7 +6,7 @@ Under development by the DSC-TUDublin, this project uses [GitHub pages](https://
 ## Things to see
  
  - Documentation Section
-    - temp
+    - this is a test
     - temp
     - temp
 
