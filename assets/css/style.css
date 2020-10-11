@@ -5,3 +5,24 @@
 body {
 
 }
+
+.home-section {
+	background-color: green;
+	height: 100vh;
+}
+
+#intro-section {
+	background-color: #FFFFFF;
+}
+
+#info-section {
+	background-color: #EA4335;
+}
+
+#tech-we-use-section {
+	background-color: #4285F4;
+}
+
+#faq-section {
+	background-color: #149D58;
+}
