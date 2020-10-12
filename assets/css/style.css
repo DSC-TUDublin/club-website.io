@@ -39,6 +39,7 @@ body {
 
 .table td {
 	width: 100%;
+	border: 0;
 }
 
 /*Wrappers modify */
