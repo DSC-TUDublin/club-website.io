@@ -1,0 +1,59 @@
+/*Fonts*/
+li, a{
+  font-family: "Google Sans", "sans-serif";
+  font-weight: bold;
+  font-size: 1.30rem;
+  text-decoration: none;
+  color: black;
+}
+
+/*Navbar design*/
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgb(192, 192, 192);
+  padding: 12px 10%;
+  position: sticky;
+  top: 0;
+}
+
+/*Logo sizing*/
+.navbar-logo img {
+  width: 33%;
+  margin-right: auto;
+}
+
+/*Deleting bulletpoints*/
+.menu {
+  list-style: none;
+}
+
+/*Puts links in line*/
+.menu li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/*Adds a smooth animation when hover over a button*/
+.menu li a {
+  transition: all 0.3s ease 0s;
+}
+
+/*Tells user on which page he/she is*/
+.menu li a:hover:not(.active) {
+  background-color:#4285F4;
+  padding: 3px 3px;
+}
+
+.active {
+  background-color: #a6aaaf;
+  padding: 3px 3px; 
+}
+/*Please put class="active" on a webpage link you are currently working on! <a class="active" href="#"/> */
+
+
+
+
+
