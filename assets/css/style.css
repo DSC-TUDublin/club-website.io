@@ -115,3 +115,48 @@ body {
 #faq-section {
 	background-color: #149D58;
 }
+
+/*Spacing at the ends of nav bar*/
+.navbar {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: block;  
+  padding-left: 5.2rem;
+  padding-right: 6.5rem;
+}
+
+/*Link aesthtic and placing*/
+.links {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  float: right;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*Spaces between the links*/
+.gaps {
+  padding-left: 6rem;
+  margin-top: 2rem;
+  float: right;
+}
+
+/*Image sizing*/
+.navbar-logo img {
+  width: 24%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+/*Drop shadow*/
+.shadow {
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 4px 10px grey;  
+}
+
+h1{
+    margin-top: 10vh;
+}
