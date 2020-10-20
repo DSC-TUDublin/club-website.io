@@ -13,6 +13,46 @@ body {
 
 #intro-section {
 	background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-image, .intro-text{
+    padding: 4em;
+}
+
+
+.intro-image img{
+    width: 45vw;
+    border-radius: 20px;
+}
+
+.intro-logo {
+    width: 35vw;
+}
+
+.intro-desc {
+    color: #686D73;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.red{
+    color: #EA4335;
+}
+
+.blue{
+    color: #4285F4;
+}
+
+.yellow{
+    color: #FBBC09;
+}
+
+.green{
+    color: #149D58;
 }
 
 #info-section {
@@ -27,14 +67,6 @@ body {
 	padding: 20px 4% 20px 0;
 	height: max-content;
 	text-align: center;
-}
-
-.home-section p {
-	display: block;
-	color: white;
-    font-weight: 20em;
-    font-size: 2.5em;
-    margin: 20px 0;
 }
 
 .table td {
