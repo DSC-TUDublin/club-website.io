@@ -1,0 +1,21 @@
+body {
+
+    background-color: #28a745;
+}
+
+#FAQs_Section {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+    "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: white;
+    margin: auto;
+    padding: 15em;
+    padding-left: 10em;
+    padding-left: 10em;
+}
+
+#FAQs_Section h2{
+    text-align: center;
+    padding-bottom: 2em;
+
+}
