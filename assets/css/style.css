@@ -5,7 +5,7 @@
 body {
 
 }
-
+/* HOME-SECTION */
 .home-section {
 	background-color: green;
 	height: 100vh;
@@ -58,13 +58,52 @@ body {
 .green{
     color: #149D58;
 }
+/*END HOME-SECTION */
 
+/* INFO-SECTION */
 #info-section {
-	background-color: #EA4335;
+    font-size: 2.5em;
+    font-family: Arial;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #EA4335;
+    height: max-content;
+    padding: 3%;
 }
+
+.wrapper {
+    display: inline-block;
+    background: #FFFF;
+    border-radius: 20px;
+    font-size: 30px;
+    height: max-content;
+    width: 28.7%;
+    margin: 3% 2%;
+    padding: 2.5% 3% 3% 3%;
+    box-shadow: 1px 1px #686D73; 
+
+}
+.wrapper .title .head {
+    color: black;
+    margin: 5% 0 1% 0;
+}
+
+hr {
+    color: black;
+    margin: 1.5rem 30% 1.5rem 30%;
+    padding: 0;
+}
+
+.wrapper .content {
+    color: #686D73 ;
+    font-size: 20px;
+}
+/*END INFO-SECTION */
 
 /* Tech we use section */
 #tech-we-use-section {
+    font-size: 2.5em;
+    color:#FFFFFF;
 	background-color: #4285F4;
 	display: inline-block;
     font-family: Arial;
@@ -86,10 +125,10 @@ body {
     color: #686D73;
     border-radius: 20px ;
     width: 600px;
-    height: 545px;
+    height: 515px;
     padding: 15px 60px;
-    margin: 0 10% 0 5%;
-	box-shadow: 2px 2px #686D73; 
+    margin: 0 10% 0px 5%;
+	box-shadow: 1px 1px #686D73; 
 }
 
 .general-wrapper {
@@ -120,12 +159,21 @@ body {
 }
 
 /* Other modify */
-.des-text p{
+.des-text {
     color: #686D73;
     margin: collapse 5% 7% 5%;
 	padding: auto;
 	height: fit-content;
 }
+
+.general-wrapper .des-text {
+    font-size: 20px;
+}
+
+.Flutter-wrapper .des-text {
+    font-size: 25px;
+}
+
 
 .button p{
     font-size: 20px;
@@ -147,7 +195,9 @@ body {
     margin: 6% 40px 3% 40px;
 }
 
+/* End tech we use section */
 
+/*FAQ section */
 #faq-section {
 	background-color: #149D58;
 }
@@ -197,5 +247,5 @@ h1{
     margin-top: 10vh;
 }
 
-
+/* End FAQ section */
 
